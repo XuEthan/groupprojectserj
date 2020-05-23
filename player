@@ -1,0 +1,56 @@
+package endofyearprojects;
+
+public class player {
+	private int phealth;
+	private int pattack;
+	private int pmove;
+	private int x;
+	private int y;
+	
+	player(int h, int a, int m, int xx, int yy){
+		phealth = h;
+		pattack = a;
+		pmove = m;
+		x = xx;
+		y = yy;
+	}
+	public void setphealth(int n) {
+		phealth = n;
+	}
+	
+	public int getphealth() {
+		return phealth;
+	}
+	
+	public void pattack(int n) {
+		pattack = n;
+	}
+	
+	public int getppattack() {
+		return pattack;
+	}
+	
+	public void setpmove(int n) {
+		pmove = n;
+	}
+	
+	public int getpmove() {
+		return pmove;
+	}
+	
+	public void setx(int n) {
+		x = n;
+	}
+	
+	public int getx() {
+		return x;
+	}
+	
+	public void sety(int n) {
+		y = n;
+	}
+	
+	public int gety() {
+		return y;
+	}
+}
